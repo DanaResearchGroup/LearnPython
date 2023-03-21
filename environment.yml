@@ -1,0 +1,14 @@
+name: abc_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - matplotlib
+  - numpy
+  - python >=3.8
+  - pyyaml
+  - anaconda::ipython
+  - conda-forge::mdtraj
+  - conda-forge::mdanalysis
+
